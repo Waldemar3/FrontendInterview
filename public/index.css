@@ -58,3 +58,28 @@ header {
     border-radius: 5px;
     padding: 7px 10px;
 }
+
+.article{
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.description{
+    margin: 20px 0 0 20px;
+    font-size: 14px;
+}
+.title, .fields{
+    display: block;
+}
+.title{
+    color:rgb(40, 123, 209);
+}
+.fields{
+    float: left;
+    color: #B8B9B9;
+    margin-top: 5px;
+}
